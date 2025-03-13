@@ -1,0 +1,227 @@
+
+.barra-navegacion {
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    height: 60px;
+}
+
+.boton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.boton img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.contenedor-imagen img {
+    max-width: 80%; 
+    height: auto;
+}
+
+/* Sección de noticias */
+.seccion-noticias {
+    background-color: rgb(128, 233, 204); /* Color del fondo */
+    padding: 20px;
+}
+
+.seccion-noticias h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.seccion-noticias p {
+    font-size: 16px;
+}
+
+/* Estilo de la sección adicional */
+.seccion-adicional {
+    background-color: rgb(255, 221, 181); /* Fondo beige */
+    padding: 20px;
+}
+
+/* Estilos del texto */
+.texto-cursiva {
+    font-style: italic;
+    color: rgb(200, 100, 50);
+}
+
+.texto-negrita {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.texto-pequeno {
+    font-size: 12px;
+}
+
+.ecuacion {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.texto-marcado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.texto-subrayado {
+    text-decoration: underline;
+}
+
+.texto-tachado {
+    text-decoration: line-through;
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: #4e7057; /* Verde oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor de redes sociales */
+.redes-sociales {
+    margin-top: 10px;
+}
+
+/* Estilos de los iconos */
+.redes-sociales a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.redes-sociales img {
+    width: 30px; /* Tamaño de los iconos */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}
+
+/*aqui estan los css de servicios y contactos*/
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Barra de navegación */
+.barra-navegacion {
+    display: flex;
+    justify-content: center;
+    background-color: #004466;
+    padding: 10px 0;
+}
+
+.barra-navegacion a {
+    margin: 0 10px;
+}
+
+.barra-navegacion img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Contenido de Servicios */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.servicios-container {
+    text-align: center; /* Centra el contenido */
+    margin: 20px auto;
+    max-width: 80%; /* Limita el ancho */
+}
+
+.servicios-container img {
+    display: block;
+    margin: 10px auto; /* Centra horizontalmente */
+    width: 80%; /* Ajusta el tamaño */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Específico para la segunda imagen */
+.servicios-container img:nth-child(2) {
+    display: block;
+    margin: 20px auto; /* Centra la imagen */
+    width: 60%; /* Ajusta el tamaño */
+}
+
+/* Formulario de Contacto */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #004466;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #003355;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
